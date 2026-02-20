@@ -190,7 +190,21 @@
   width: 16px;
   height: 16px;
   border: 1px solid #CECECE;
-  border-radius: var(--radius-sm);
+  border-radius: 4px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.radio-label input[type="radio"]:checked + .radio-icon-unchecked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  background: #242424;
+  border-radius: 50%;
 }
 
 .radio-text {
@@ -253,6 +267,7 @@
   display: flex;
   gap: 60px;
   font-size: 14px;
+  justify-content: space-between;
 }
 
 .summary-item-label {
@@ -276,7 +291,8 @@
 
 .toggle-label {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
   align-items: center;
   gap: var(--space-md);
 }
@@ -295,7 +311,7 @@
   border-radius: 12px;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: flex-start;
   transition: background var(--transition-fast);
   cursor: pointer;
   flex-shrink: 0;
@@ -303,7 +319,7 @@
 
 .toggle-btn.active {
   background: var(--color-primary);
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .toggle-slider {
@@ -477,19 +493,24 @@
     width: 100%;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .summary-toggles {
     width: 100%;
     flex-direction: column;
+    align-items: stretch;
   }
 
   .toggle-label {
     width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 
   .btn-submit {
     width: 100%;
+    flex: 1 0 auto;
   }
 
   /* Success Page Mobile */

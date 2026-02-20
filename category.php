@@ -20,9 +20,13 @@
         <!-- Breadcrumbs -->
         <nav class="breadcrumbs">
           <a href="index.php" class="breadcrumb-link">Главная</a>
-          <img src="public/assets/c230e64e2fc8f783afe01e41d1f7b08d6ec283fb.svg" alt="" class="breadcrumb-arrow" width="14" height="14">
+          <svg class="breadcrumb-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.25 10.5L8.75 7L5.25 3.5" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
           <a href="#" class="breadcrumb-link">Каталог</a>
-          <img src="public/assets/c230e64e2fc8f783afe01e41d1f7b08d6ec283fb.svg" alt="" class="breadcrumb-arrow" width="14" height="14">
+          <svg class="breadcrumb-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.25 10.5L8.75 7L5.25 3.5" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
           <span class="breadcrumb-current">Шлемы</span>
         </nav>
         <div class="breadcrumb-divider"></div>
@@ -62,52 +66,72 @@
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">SNOWMOBILE</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">ALPINESTARS</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">ARCTIC CAT</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">ATHEN</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">FILTRO</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">HIGHWAY</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">JETHWEAR</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">JT</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">KAGE</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">KINGTYRE</span>
                   </label>
                 </div>
@@ -117,14 +141,18 @@
               <div class="filter-group">
                 <h4 class="filter-title">ЦЕНА</h4>
                 <div class="price-range">
-                  <span class="price-label">от</span>
-                  <div class="price-input">
-                    <input type="text" value="0">
+                  <div class="price-row">
+                    <span class="price-label">от</span>
+                    <div class="price-input">
+                      <input type="text" value="0">
+                    </div>
                   </div>
                   <div class="price-divider"></div>
-                  <span class="price-label">до</span>
-                  <div class="price-input">
-                    <input type="text" value="100000000">
+                  <div class="price-row">
+                    <span class="price-label">до</span>
+                    <div class="price-input">
+                      <input type="text" value="100000000">
+                    </div>
                   </div>
                 </div>
               </div>
@@ -142,37 +170,51 @@
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">Мотоэкипировка</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">Моторасходники и З/Ч</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">Моторезина</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">Тюнинг и Аксессуары</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">Мотохимия</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">Уцененные товары</span>
                   </label>
                   <label class="checkbox-item">
                     <input type="checkbox">
-                    <span class="checkbox-box"></span>
+                    <span class="checkbox-box">
+                      <img src="public/assets/filters-check.svg" alt="" class="checkbox-check">
+                    </span>
                     <span class="checkbox-label">Зимняя экипировка</span>
                   </label>
                 </div>
@@ -197,7 +239,15 @@
               <div class="category-item expanded">
                 <div class="category-header">
                   <span class="category-name">Велокомпьютеры</span>
-                  <img src="public/assets/c230e64e2fc8f783afe01e41d1f7b08d6ec283fb.svg" alt="" class="category-arrow" width="20" height="20">
+                  <span class="category-icon">
+                    <svg class="icon-minus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="icon-plus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 4.16675V15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
                 </div>
                 <div class="category-children">
                   <a href="#" class="category-child">Багажники для автомобиля</a>
@@ -216,7 +266,15 @@
               <div class="category-item collapsed">
                 <div class="category-header">
                   <span class="category-name">ВЕЛОЗАПЧАСТИ</span>
-                  <img src="public/assets/category-arrow-right.svg" alt="" class="category-arrow" width="20" height="20">
+                  <span class="category-icon">
+                    <svg class="icon-minus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="icon-plus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 4.16675V15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
                 </div>
                 <div class="category-divider"></div>
               </div>
@@ -224,7 +282,15 @@
               <div class="category-item collapsed">
                 <div class="category-header">
                   <span class="category-name">ВЕЛОСИПЕДЫ</span>
-                  <img src="public/assets/category-arrow-right.svg" alt="" class="category-arrow" width="20" height="20">
+                  <span class="category-icon">
+                    <svg class="icon-minus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="icon-plus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 4.16675V15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
                 </div>
                 <div class="category-divider"></div>
               </div>
@@ -232,7 +298,15 @@
               <div class="category-item collapsed">
                 <div class="category-header">
                   <span class="category-name">ВЕЛОЭКИПИРОВКА</span>
-                  <img src="public/assets/category-arrow-right.svg" alt="" class="category-arrow" width="20" height="20">
+                  <span class="category-icon">
+                    <svg class="icon-minus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="icon-plus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 4.16675V15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
                 </div>
                 <div class="category-divider"></div>
               </div>
@@ -240,7 +314,15 @@
               <div class="category-item collapsed">
                 <div class="category-header">
                   <span class="category-name">ИНСТРУМЕНТЫ</span>
-                  <img src="public/assets/category-arrow-right.svg" alt="" class="category-arrow" width="20" height="20">
+                  <span class="category-icon">
+                    <svg class="icon-minus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="icon-plus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 4.16675V15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
                 </div>
                 <div class="category-divider"></div>
               </div>
@@ -248,7 +330,15 @@
               <div class="category-item collapsed">
                 <div class="category-header">
                   <span class="category-name">МАСКИ/ОЧКИ</span>
-                  <img src="public/assets/category-arrow-right.svg" alt="" class="category-arrow" width="20" height="20">
+                  <span class="category-icon">
+                    <svg class="icon-minus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="icon-plus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 4.16675V15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
                 </div>
                 <div class="category-divider"></div>
               </div>
@@ -256,7 +346,15 @@
               <div class="category-item collapsed">
                 <div class="category-header">
                   <span class="category-name">МОТОЭКИПИРОВКА</span>
-                  <img src="public/assets/category-arrow-right.svg" alt="" class="category-arrow" width="20" height="20">
+                  <span class="category-icon">
+                    <svg class="icon-minus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="icon-plus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 4.16675V15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
                 </div>
                 <div class="category-divider"></div>
               </div>
@@ -264,7 +362,15 @@
               <div class="category-item collapsed">
                 <div class="category-header">
                   <span class="category-name">ОДЕЖДА</span>
-                  <img src="public/assets/category-arrow-right.svg" alt="" class="category-arrow" width="20" height="20">
+                  <span class="category-icon">
+                    <svg class="icon-minus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="icon-plus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.16675 10H15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10 4.16675V15.8334" stroke="#7B7B7B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
                 </div>
                 <div class="category-divider"></div>
               </div>
@@ -280,24 +386,32 @@
                 <!-- View Type -->
                 <div class="view-control">
                   <span class="view-label">ВИД Карточек</span>
-                  <div class="view-select">
-                    <button class="view-btn active" data-view="grid">
+                  <div class="view-dropdown">
+                    <button class="view-btn">
                       <span>Карточки</span>
                       <img src="public/assets/c230e64e2fc8f783afe01e41d1f7b08d6ec283fb.svg" alt="" width="16" height="16">
                     </button>
-                    <button class="view-btn" data-view="list">
-                      <span>Списком</span>
-                      <img src="public/assets/c230e64e2fc8f783afe01e41d1f7b08d6ec283fb.svg" alt="" width="16" height="16">
-                    </button>
+                    <div class="view-dropdown-menu">
+                      <button class="view-option active" data-view="grid">Карточки</button>
+                      <button class="view-option" data-view="list">Списком</button>
+                    </div>
                   </div>
                 </div>
                 <!-- Sort -->
                 <div class="sort-control">
                   <span class="sort-label">Сортировать по</span>
-                  <button class="sort-btn">
-                    <span>Популярности</span>
-                    <img src="public/assets/c230e64e2fc8f783afe01e41d1f7b08d6ec283fb.svg" alt="" width="16" height="16">
-                  </button>
+                  <div class="sort-dropdown">
+                    <button class="sort-btn">
+                      <span>Популярности</span>
+                      <img src="public/assets/c230e64e2fc8f783afe01e41d1f7b08d6ec283fb.svg" alt="" width="16" height="16">
+                    </button>
+                    <div class="sort-dropdown-menu">
+                      <button class="sort-option active" data-sort="popularity">Популярности</button>
+                      <button class="sort-option" data-sort="price-asc">Цене (по возрастанию)</button>
+                      <button class="sort-option" data-sort="price-desc">Цене (по убыванию)</button>
+                      <button class="sort-option" data-sort="newest">Новизне</button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -626,15 +740,67 @@
       });
     });
 
-    // View Toggle
-    document.querySelectorAll('.view-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
+    // View Dropdown
+    const viewDropdown = document.querySelector('.view-dropdown');
+    const viewBtn = document.querySelector('.view-dropdown .view-btn');
+    const viewOptions = document.querySelectorAll('.view-option');
 
-        const view = btn.dataset.view;
+    viewBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      viewDropdown.classList.toggle('open');
+    });
+
+    viewOptions.forEach(option => {
+      option.addEventListener('click', () => {
+        const view = option.dataset.view;
+        const btnText = viewBtn.querySelector('span');
+
+        // Update button text
+        btnText.textContent = option.textContent;
+
+        // Update active state
+        viewOptions.forEach(o => o.classList.remove('active'));
+        option.classList.add('active');
+
+        // Close dropdown
+        viewDropdown.classList.remove('open');
+
+        // Switch view
         document.getElementById('grid-view').style.display = view === 'grid' ? 'grid' : 'none';
         document.getElementById('list-view').style.display = view === 'list' ? 'flex' : 'none';
+      });
+    });
+
+    // Close dropdown on outside click
+    document.addEventListener('click', () => {
+      viewDropdown.classList.remove('open');
+      sortDropdown.classList.remove('open');
+    });
+
+    // Sort Dropdown
+    const sortDropdown = document.querySelector('.sort-dropdown');
+    const sortBtn = document.querySelector('.sort-dropdown .sort-btn');
+    const sortOptions = document.querySelectorAll('.sort-option');
+
+    sortBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      viewDropdown.classList.remove('open');
+      sortDropdown.classList.toggle('open');
+    });
+
+    sortOptions.forEach(option => {
+      option.addEventListener('click', () => {
+        const btnText = sortBtn.querySelector('span');
+
+        // Update button text
+        btnText.textContent = option.textContent;
+
+        // Update active state
+        sortOptions.forEach(o => o.classList.remove('active'));
+        option.classList.add('active');
+
+        // Close dropdown
+        sortDropdown.classList.remove('open');
       });
     });
 

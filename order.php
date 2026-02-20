@@ -20,7 +20,9 @@
         <!-- Breadcrumbs -->
         <nav class="breadcrumbs">
           <a href="index.php" class="breadcrumb-link">Главная</a>
-          <img src="public/assets/c230e64e2fc8f783afe01e41d1f7b08d6ec283fb.svg" alt="" class="breadcrumb-arrow" width="14" height="14">
+          <svg class="breadcrumb-arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.25 10.5L8.75 7L5.25 3.5" stroke="#777777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
           <span class="breadcrumb-current">Оформление заказа</span>
         </nav>
         <div class="breadcrumb-divider"></div>
@@ -57,13 +59,11 @@
               <div class="radio-group">
                 <label class="radio-label">
                   <input type="radio" name="delivery" checked>
-                  <img src="public/assets/radio-checked.svg" alt="" class="radio-icon" width="16" height="16">
                   <span class="radio-icon-unchecked"></span>
                   <span class="radio-text">Доставка курьером</span>
                 </label>
                 <label class="radio-label">
                   <input type="radio" name="delivery">
-                  <img src="public/assets/radio-checked.svg" alt="" class="radio-icon" width="16" height="16">
                   <span class="radio-icon-unchecked"></span>
                   <span class="radio-text">Самовывоз</span>
                 </label>
@@ -92,13 +92,11 @@
               <div class="radio-group">
                 <label class="radio-label">
                   <input type="radio" name="payment" checked>
-                  <img src="public/assets/radio-checked.svg" alt="" class="radio-icon" width="16" height="16">
                   <span class="radio-icon-unchecked"></span>
                   <span class="radio-text">Наличными</span>
                 </label>
                 <label class="radio-label">
                   <input type="radio" name="payment">
-                  <img src="public/assets/radio-checked.svg" alt="" class="radio-icon" width="16" height="16">
                   <span class="radio-icon-unchecked"></span>
                   <span class="radio-text">Картой</span>
                 </label>
@@ -152,36 +150,6 @@
       btn.addEventListener('click', function() {
         this.classList.toggle('active');
       });
-    });
-
-    // Radio buttons visual state
-    document.querySelectorAll('.radio-label input[type="radio"]').forEach(radio => {
-      radio.addEventListener('change', function() {
-        const name = this.name;
-        document.querySelectorAll(`input[name="${name}"]`).forEach(r => {
-          const label = r.closest('.radio-label');
-          const icon = label.querySelector('.radio-icon');
-          const unchecked = label.querySelector('.radio-icon-unchecked');
-          if (r.checked) {
-            icon.style.display = 'block';
-            unchecked.style.display = 'none';
-          } else {
-            icon.style.display = 'none';
-            unchecked.style.display = 'block';
-          }
-        });
-      });
-      // Initialize
-      const label = radio.closest('.radio-label');
-      const icon = label.querySelector('.radio-icon');
-      const unchecked = label.querySelector('.radio-icon-unchecked');
-      if (radio.checked) {
-        icon.style.display = 'block';
-        unchecked.style.display = 'none';
-      } else {
-        icon.style.display = 'none';
-        unchecked.style.display = 'block';
-      }
     });
   </script>
 </body>

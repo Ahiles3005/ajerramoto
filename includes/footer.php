@@ -29,14 +29,14 @@
             <li><a href="#">Контакты</a></li>
           </ul>
           <div class="social-links">
-            <a href="#" class="social-link" aria-label="Telegram">
+	        <a href="#" class="social-link" aria-label="Instagram">
+	          <img src="public/assets/ac40dbf8bb5dfba43d41bbfa1d15ace20b703ee0.svg" alt="" width="24" height="24">
+	        </a>
+            <a href="#" class="social-link" aria-label="VK">
               <img src="public/assets/77be5db52bc6407aa8ecbcdfda68620ef9ecbc32.svg" alt="" width="24" height="24">
             </a>
             <a href="#" class="social-link" aria-label="YouTube">
               <img src="public/assets/a1418aa0ce7c6407cd26f34b1c7cbeabe4eed82c.svg" alt="" width="24" height="24">
-            </a>
-            <a href="#" class="social-link" aria-label="Instagram">
-              <img src="public/assets/ac40dbf8bb5dfba43d41bbfa1d15ace20b703ee0.svg" alt="" width="24" height="24">
             </a>
           </div>
         </div>
