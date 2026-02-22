@@ -322,7 +322,7 @@
           <div class="parts-carousel">
             <button class="nav-arrow dark carousel-prev swiper-button-prev-popular" aria-label="Предыдущий">
               <img src="public/assets/40d1d1338cfbab8ddf4ad4dcfe5360adb5cfb97c.svg" alt="" width="24" height="24" style="transform: scaleX(-1)">
-                        </a>
+            </button>
             <div class="swiper parts-swiper popular-swiper">
               <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -357,7 +357,7 @@
                   <a href="product.php" class="part-image">
                     <img src="public/assets/babc1deb46178ba007ecd52b6844574e4d5022d4.png" alt="Аккумулятор EXIDE">
                     <span class="part-badge wide">аккумуляторы</span>
-                  </div>
+                  </a>
                   <h3 class="part-name">Аккумулятор EXIDE</h3>
                   <div class="part-divider"></div>
                   <div class="part-footer">
@@ -384,7 +384,7 @@
                   <a href="product.php" class="part-image">
                     <img src="public/assets/0196eaee1d21f9868a5371414a7337a0f478490a.png" alt="Аккумулятор EXIDE">
                     <span class="part-badge wide">аккумуляторы</span>
-                  </div>
+                  </a>
                   <h3 class="part-name">Аккумулятор EXIDE</h3>
                   <div class="part-divider"></div>
                   <div class="part-footer">
@@ -411,7 +411,7 @@
                   <a href="product.php" class="part-image">
                     <img src="public/assets/8bfe66051b94080dd8cc17c697f3909bbbc51575.png" alt="Аккумулятор EXIDE">
                     <span class="part-badge wide">аккумуляторы</span>
-                  </div>
+                  </a>
                   <h3 class="part-name">Аккумулятор EXIDE</h3>
                   <div class="part-divider"></div>
                   <div class="part-footer">
@@ -438,7 +438,7 @@
                   <a href="product.php" class="part-image">
                     <img src="public/assets/8bfe66051b94080dd8cc17c697f3909bbbc51575.png" alt="Аккумулятор EXIDE">
                     <span class="part-badge wide">аккумуляторы</span>
-                  </div>
+                  </a>
                   <h3 class="part-name">Аккумулятор EXIDE</h3>
                   <div class="part-divider"></div>
                   <div class="part-footer">
@@ -465,7 +465,7 @@
                   <a href="product.php" class="part-image">
                     <img src="public/assets/8bfe66051b94080dd8cc17c697f3909bbbc51575.png" alt="Аккумулятор EXIDE">
                     <span class="part-badge wide">аккумуляторы</span>
-                  </div>
+                  </a>
                   <h3 class="part-name">Аккумулятор EXIDE</h3>
                   <div class="part-divider"></div>
                   <div class="part-footer">
@@ -507,7 +507,7 @@
           <div class="parts-carousel">
             <button class="nav-arrow dark carousel-prev swiper-button-prev-new" aria-label="Предыдущий">
               <img src="public/assets/40d1d1338cfbab8ddf4ad4dcfe5360adb5cfb97c.svg" alt="" width="24" height="24" style="transform: scaleX(-1)">
-                        </a>
+            </button>
             <div class="swiper parts-swiper new-swiper">
               <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -542,7 +542,7 @@
                   <a href="product.php" class="part-image">
                     <img src="public/assets/babc1deb46178ba007ecd52b6844574e4d5022d4.png" alt="Аккумулятор EXIDE">
                     <span class="part-badge wide">аккумуляторы</span>
-                  </div>
+                  </a>
                   <h3 class="part-name">Аккумулятор EXIDE</h3>
                   <div class="part-divider"></div>
                   <div class="part-footer">
@@ -569,7 +569,7 @@
                   <a href="product.php" class="part-image">
                     <img src="public/assets/0196eaee1d21f9868a5371414a7337a0f478490a.png" alt="Аккумулятор EXIDE">
                     <span class="part-badge wide">аккумуляторы</span>
-                  </div>
+                  </a>
                   <h3 class="part-name">Аккумулятор EXIDE</h3>
                   <div class="part-divider"></div>
                   <div class="part-footer">
@@ -596,7 +596,7 @@
                   <a href="product.php" class="part-image">
                     <img src="public/assets/8bfe66051b94080dd8cc17c697f3909bbbc51575.png" alt="Аккумулятор EXIDE">
                     <span class="part-badge wide">аккумуляторы</span>
-                  </div>
+                  </a>
                   <h3 class="part-name">Аккумулятор EXIDE</h3>
                   <div class="part-divider"></div>
                   <div class="part-footer">
@@ -623,7 +623,7 @@
                   <a href="product.php" class="part-image">
                     <img src="public/assets/8bfe66051b94080dd8cc17c697f3909bbbc51575.png" alt="Аккумулятор EXIDE">
                     <span class="part-badge wide">аккумуляторы</span>
-                  </div>
+                  </a>
                   <h3 class="part-name">Аккумулятор EXIDE</h3>
                   <div class="part-divider"></div>
                   <div class="part-footer">
@@ -650,7 +650,7 @@
                   <a href="product.php" class="part-image">
                     <img src="public/assets/8bfe66051b94080dd8cc17c697f3909bbbc51575.png" alt="Аккумулятор EXIDE">
                     <span class="part-badge wide">аккумуляторы</span>
-                  </div>
+                  </a>
                   <h3 class="part-name">Аккумулятор EXIDE</h3>
                   <div class="part-divider"></div>
                   <div class="part-footer">
