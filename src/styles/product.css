@@ -645,9 +645,6 @@
 }
 
 @media (max-width: 992px) {
-  .product-image-main {
-    height: 400px;
-  }
 
   .tabs-header {
     overflow-x: auto;
@@ -683,7 +680,6 @@
   }
 
   .product-image-main {
-    height: 280px;
     border-radius: var(--radius-md);
   }
 
